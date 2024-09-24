@@ -1,11 +1,16 @@
-# Ignoriere alle Verzeichnisse und Dateien im Benutzerverzeichnis
-C:/Users/*
+# Avoid accidental upload of the Sketch and Figma design files
+#####################################################
+## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
 
-# Ignoriere spezifische Dateitypen
-*.log
-*.cache
+# Avoid accidental XD upload if you convert the design file
+###############################################
+## Please do not remove line 12 - thanks! 🙂 ##
+###############################################
+*.xd
 
-# Ignoriere spezifische Verzeichnisse in Ihrem Projekt
-node_modules/
-build/
-dist/
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+.prettierignore
