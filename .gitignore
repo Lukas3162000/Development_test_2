@@ -1,0 +1,11 @@
+# Ignoriere alle Verzeichnisse und Dateien im Benutzerverzeichnis
+C:/Users/*
+
+# Ignoriere spezifische Dateitypen
+*.log
+*.cache
+
+# Ignoriere spezifische Verzeichnisse in Ihrem Projekt
+node_modules/
+build/
+dist/
