@@ -1,3 +1,8 @@
-h1{
-    font-family: Arial;
+#qr-code img{
+    border-radius: 20px;
+    width: 288px;
+}
+
+#card-content h1{
+    font-family: Outfit;
 }
