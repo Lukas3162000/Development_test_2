@@ -14,6 +14,12 @@ place-items: center;
     box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.144);
 }
 
+@media (max-width: 376px){
+    #qr-code img{
+        border-radius: 10px;
+    }
+}
+
 #qr-code img{
     width: 288px;
     margin-top: 16px;
